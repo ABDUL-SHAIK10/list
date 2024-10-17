@@ -1,0 +1,11 @@
+'''
+def def create_and_display_list():
+    n = int(input("Enter the size of the list: "))
+    integer_list = []
+     for _ in range(n):
+        element = int(input())
+        integer_list.append(element)
+     print("Output:")
+    print(" ".join(map(str, integer_list)))
+create_and_display_list()
+'''
