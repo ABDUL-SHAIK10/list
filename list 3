@@ -1,0 +1,26 @@
+'''
+def separate_even_odd():
+    # Read the size of the list
+    size = int(input("Enter the size of the list: "))
+    
+    # Initialize empty lists for even and odd numbers
+    even_list = []
+    odd_list = []
+    
+    # Read the elements of the list
+    print("Enter the elements of the list:")
+    for _ in range(size):
+        element = int(input())
+        # Check if the number is even or odd and append to the respective list
+        if element % 2 == 0:
+            even_list.append(element)
+        else:
+            odd_list.append(element)
+    
+    # Display the even and odd lists
+    print("The even list:", even_list)
+    print("The odd list:", odd_list)
+
+# Call the function to execute
+separate_even_odd()
+'''
